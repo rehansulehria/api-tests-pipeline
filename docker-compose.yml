@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  server:
+    image: recruiting-qa-challenge-qa-server  # Use the downloaded image
+    container_name: my_server
+    ports:
+      - "8000:8000"
